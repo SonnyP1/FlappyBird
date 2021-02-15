@@ -1,0 +1,10 @@
+^C:\USERS\SONNY PONCE\SOURCE\REPOS\GAMEPROGRAMMINGII\FLAPPYBIRD\TYRANT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird" "-BC:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird" --check-stamp-file "C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\FlappyBirdApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\MainGameLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\FlappyBirdApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\MainGameLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{433C5D9B-4993-38E1-9593-E88C7BE250CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{C4B29C3C-EB22-33EE-8674-09EC8B0D2BC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{23B7D71A-DBC4-3643-8BF1-E8C1B5AAB73B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

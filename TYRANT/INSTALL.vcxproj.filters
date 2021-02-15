@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\a4ceb3ca2e7add433ce19c8af5cacddc\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3421122A-AC5C-3685-9850-149F8E300660}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

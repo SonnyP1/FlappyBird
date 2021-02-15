@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\vendor\sflm\lib\Debug\sfml-system-d-2.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\vendor\sflm\lib\Debug\sfml-audio-d-2.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\vendor\sflm\lib\Debug\sfml-window-d-2.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\vendor\sflm\lib\Debug\sfml-graphics-d-2.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\vendor\sflm\lib\Debug\sfml-network-d-2.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\Debug\TYRANT.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

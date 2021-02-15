@@ -1,0 +1,10 @@
+^C:\USERS\SONNY PONCE\SOURCE\REPOS\GAMEPROGRAMMINGII\FLAPPYBIRD\CMAKEFILES\C3ABEAE67B61ABB19E42B449E42C257C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird" "-BC:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
