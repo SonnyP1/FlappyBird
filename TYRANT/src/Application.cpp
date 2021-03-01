@@ -1,3 +1,4 @@
+#include "..\include\Application.h"
 #include <Application.h>
 #include <tyrant.h>
 #include <Level.h>
@@ -9,6 +10,8 @@ namespace ty
 		m_currentLevel(nullptr),
 		m_Clock()
 	{
+		m_score = 0;
+		m_highScore = 0;
 	}
 
 	Application::~Application()
@@ -50,8 +53,11 @@ namespace ty
 			{
 				m_window->close();
 			}
+			if (event.type == sf::Event::KeyPressed)
+			{
+				HandleInput();
+			}
 		}
-		//TODO: Handle Input event
 	}
 
 	void Application::BeginPlay()
@@ -82,5 +88,23 @@ namespace ty
 		m_currentLevel = level;
 
 		Run();
+	}
+	void Application::HandleInput()
+	{
+		if (m_currentLevel)
+		{
+			m_currentLevel->HandleInput();
+		}
+	}
+	void Application::AddScore()
+	{
+		m_score++; 
+		std::cout << m_score << std::endl;
+
+		if (m_score > m_highScore)
+		{
+			m_highScore = m_score;
+			std::cout << "You pass high score!" << std::endl;
+		}
 	}
 }

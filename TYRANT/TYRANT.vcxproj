@@ -408,7 +408,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\Application.h" />
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\CollsionComp.h" />
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\Entity.h" />
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\EntityComponent.h" />
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\GameObject.h" />
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\Level.h" />
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\MovementComp.h" />
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\PhysicsMovementComp.h" />
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\TyrantCore.h" />
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\TyrantEntryPoint.h" />
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\tyrant.h" />
@@ -431,7 +437,79 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\CollsionComp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\Entity.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\Level.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\MovementComp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/TYRANT.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\PhysicsMovementComp.cpp">
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/TYRANT/CMakeFiles/TYRANT.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>

@@ -4,21 +4,42 @@
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\cmake_pch.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\FlappyBirdApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\MainGameLevel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\Pipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\PipeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FlappyBird\src\Medal.cpp" />
+    <ClCompile Include="FlappyBird\src\GameoverLevel.cpp" />
+    <ClCompile Include="FlappyBird\src\PlayButton.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\Bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\FlappyBirdApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\MainGameLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\Pipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\PipeGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\test.h">
@@ -36,6 +57,9 @@
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\RelWithDebInfo\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
     </ClInclude>
+    <ClInclude Include="FlappyBird\src\Medal.h" />
+    <ClInclude Include="FlappyBird\src\GameoverLevel.h" />
+    <ClInclude Include="FlappyBird\src\PlayButton.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeLists.txt" />

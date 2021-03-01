@@ -323,6 +323,28 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\Bird.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="FlappyBird\src\GameoverLevel.cpp" />
+    <ClCompile Include="FlappyBird\src\Medal.cpp" />
+    <ClCompile Include="FlappyBird\src\PlayButton.cpp" />
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\Bird.h" />
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\FlappyBirdApp.cpp">
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
@@ -361,6 +383,44 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\MainGameLevel.h" />
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\Pipe.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\Pipe.h" />
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\PipeGenerator.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/FlappyBird.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\PipeGenerator.h" />
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\FlappyBird\src\main.cpp">
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sonny Ponce/source/repos/GameProgrammingII/FlappyBird/CMakeFiles/FlappyBird.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
@@ -384,6 +444,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\Release\cmake_pch.hxx" />
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\MinSizeRel\cmake_pch.hxx" />
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\CMakeFiles\FlappyBird.dir\RelWithDebInfo\cmake_pch.hxx" />
+    <ClInclude Include="FlappyBird\src\GameoverLevel.h" />
+    <ClInclude Include="FlappyBird\src\Medal.h" />
+    <ClInclude Include="FlappyBird\src\PlayButton.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\ZERO_CHECK.vcxproj">

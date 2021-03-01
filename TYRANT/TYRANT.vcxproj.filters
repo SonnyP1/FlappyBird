@@ -7,7 +7,19 @@
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\CollsionComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\MovementComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\PhysicsMovementComp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\src\tyrant.cpp">
@@ -18,7 +30,25 @@
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\Application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\CollsionComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\EntityComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\MovementComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\PhysicsMovementComp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Sonny Ponce\source\repos\GameProgrammingII\FlappyBird\TYRANT\include\TyrantCore.h">
